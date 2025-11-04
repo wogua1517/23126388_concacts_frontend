@@ -31,9 +31,8 @@ All frontend code (`.js`, `.wxml`, `.wxss`) must comply with this guide.
 
 ### Comments
 - Add JSDoc-style comments above complex logic blocks:
-  ```js
   /**
-   * Uploads a temporary avatar to cloud storage and returns the file ID.
+   * This is a comment.
    * @returns {Promise<string|null>}
    */
-  uploadAvatar() { ... }
+
